@@ -1,10 +1,10 @@
 
-.wrapper {
+.wrapper-logo {
     max-width: 1600px;
+    margin: 0 auto;
 }
 
 .header {
-
     
 }
 
@@ -30,16 +30,29 @@
 .header-logo-subtitle-left {
     color: gray;
     max-width: 200px;
+    font-size: 10px;
 
 }
 
 .header-logo-title-center {
     color: black;
+    font-size: 25px;
+    font-weight: 600;
 
 }
 
 .header-logo-subtitle-center {
     color: gray;
+}
+
+.header-logo-title-right {
+    font-size: 12px;
+
+}
+
+.header-logo-subtitle-right {
+    font-size: 10px;
+
 }
 
 .leftimg {
@@ -48,4 +61,26 @@
 
 .rightimg {
     float: right;
+}
+
+.wrapper-menu {
+
+}
+
+.menu {
+    display: flex;
+    justify-content:space-around;
+    padding: 2px;
+
+
+}
+
+.menu-list {
+    display: flex;
+
+}
+
+.menu-list-item {
+    list-style-type: none;
+    padding: 2px;
 }
