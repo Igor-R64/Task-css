@@ -1,14 +1,14 @@
 
-.wrapper-logo {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 .header {
+height: 169px;
+
     
 }
 
 .header-logo {
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 77px;
     display: flex;
     justify-content: space-around;
     font-family: Calibri, sans-serif;
@@ -63,24 +63,26 @@
     float: right;
 }
 
-.wrapper-menu {
-
-}
 
 .menu {
+    height: 92px;
     display: flex;
-    justify-content:space-around;
-    padding: 2px;
+    align-items: center;
 
 
 }
 
 .menu-list {
     display: flex;
+    font-family: Calibri, sans-serif;
+    padding-inline-start: 184px;
 
 }
 
 .menu-list-item {
     list-style-type: none;
-    padding: 2px;
+    padding: 8.5px;
+    font-size: 15.5px;
+    font-weight: 600;
+
 }
