@@ -1,10 +1,51 @@
-.header {
-    background: red;
-    
-}
 
 .wrapper {
     max-width: 1600px;
-    height: 100px;
-    background-color: blue;
+}
+
+.header {
+
+    
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-around;
+    font-family: Calibri, sans-serif;
+    
+}
+
+.header-logo-left {
+    flex-direction: column;
+
+}
+
+.header-logo-title-left {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.header-logo-subtitle-left {
+    color: gray;
+    max-width: 200px;
+
+}
+
+.header-logo-title-center {
+    color: black;
+
+}
+
+.header-logo-subtitle-center {
+    color: gray;
+}
+
+.leftimg {
+    float: left;
+}
+
+.rightimg {
+    float: right;
 }
