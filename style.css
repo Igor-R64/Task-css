@@ -1,14 +1,16 @@
+* {
+    margin: 0;
+}
+
 
 .header {
 height: 169px;
-
-    
 }
 
 .header-logo {
     max-width: 1600px;
     margin: 0 auto;
-    height: 77px;
+    height: 84px;
     display: flex;
     justify-content: space-around;
     font-family: Calibri, sans-serif;
@@ -17,21 +19,29 @@ height: 169px;
 
 .header-logo-left {
     flex-direction: column;
+    padding: 10px;
+    padding-left: 46px;
 
 }
 
 .header-logo-title-left {
     color: black;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600;
+    padding: 4px;
+    padding-left: 48px;
 
 }
 
 .header-logo-subtitle-left {
     color: gray;
-    max-width: 200px;
-    font-size: 10px;
+    font-size: 9px;
+    width: 185px;
 
+}
+
+.header-logo-center{
+    padding: 19px;
 }
 
 .header-logo-title-center {
@@ -43,6 +53,7 @@ height: 169px;
 
 .header-logo-subtitle-center {
     color: gray;
+    font-size: 13px;
 }
 
 .header-logo-title-right {
