@@ -1,79 +1,46 @@
-* {
-    margin: 0;
+.body {
+    width: 1514px;
 }
-
 
 .header {
-height: 169px;
+    width: 1120px;
+    margin: 0 auto;
+
 }
 
-.header-logo {
-    max-width: 1600px;
-    margin: 0 auto;
+.header-top {
     height: 84px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     font-family: Calibri, sans-serif;
     
 }
 
-.header-logo-left {
-    flex-direction: column;
-    padding: 10px;
-    padding-left: 46px;
+.header-top_logo {
 
 }
 
-.header-logo-title-left {
-    color: black;
-    font-size: 22px;
-    font-weight: 600;
-    padding: 4px;
-    padding-left: 48px;
+.header-top_phone {
 
 }
 
-.header-logo-subtitle-left {
-    color: gray;
-    font-size: 9px;
-    width: 185px;
-
-}
-
-.header-logo-center{
-    padding: 19px;
-}
-
-.header-logo-title-center {
+.header-top_phone-number {
     color: black;
     font-size: 25px;
     font-weight: 600;
 
 }
 
-.header-logo-subtitle-center {
+.header-top_phone-info {
     color: gray;
     font-size: 13px;
 }
 
-.header-logo-title-right {
+.header-top_secondary_logo {
     font-size: 12px;
 
 }
-
-.header-logo-subtitle-right {
-    font-size: 10px;
-
-}
-
-.leftimg {
-    float: left;
-}
-
-.rightimg {
-    float: right;
-}
-
 
 .menu {
     height: 92px;
@@ -86,7 +53,6 @@ height: 169px;
 .menu-list {
     display: flex;
     font-family: Calibri, sans-serif;
-    padding-inline-start: 184px;
 
 }
 
