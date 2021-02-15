@@ -63,3 +63,20 @@
     font-weight: 600;
 
 }
+
+.main {
+    width: 1120px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+.main-list_services {
+    width: 286px;
+background-color: khaki;
+}
+
+.main-description_services {
+    width: 834px;
+background-color: lightgreen;
+}
