@@ -130,7 +130,7 @@ background-color: rgb(233, 233, 233);
     width: 242px;
     padding: 13px 0px;
     margin-top: 18px;
-    margin-left: 15px;
+    /* margin-left: 1px; */
     background-color: white;
     border-color: #118811;
 
