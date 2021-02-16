@@ -22,6 +22,7 @@
 }
 
 .header-top_phone {
+    padding-left: 156px;
 
 }
 
@@ -45,22 +46,27 @@
 .menu {
     height: 92px;
     display: flex;
-    align-items: center;
+    
 
 
 }
 
 .menu-list {
+    width: 1120px;
+    align-items: center;
     display: flex;
     font-family: Calibri, sans-serif;
+
 
 }
 
 .menu-list-item {
     list-style-type: none;
-    padding: 8.5px;
-    font-size: 15.5px;
+    font-size: 15px;
     font-weight: 600;
+    padding-right: 21px;
+    /* padding: 0 8px; */
+
 
 }
 
@@ -79,4 +85,12 @@ background-color: khaki;
 .main-description_services {
     width: 834px;
 background-color: lightgreen;
+}
+
+.main-list_services-text {
+    height: 64px;
+}
+
+.main-list_services-img {
+    
 }
