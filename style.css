@@ -139,3 +139,60 @@ background-color: rgb(233, 233, 233);
 .services-button:hover {
     background-color: #118811 ;
 }
+
+.main-list_services-signature {
+    /* padding: 13px 0px; */
+    margin-top: 23px;;
+    text-align: center;
+    font-size: 17px;
+}
+
+.signature {
+    text-decoration: none;
+    color: rgb(126, 189, 126);
+}
+
+.main-list_services-statistics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-list_services-statistics {
+    padding-top: 40px;
+}
+
+.main-list_services-statistics-year {
+    width: 237px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #118811;
+    border-radius: 4px;
+    padding: 10px 0;
+    margin: 10px 0;
+    font-size: 15px;
+    background: rgb(126, 189, 126);
+    letter-spacing: -0.8px;
+   
+}
+
+.main-list_services-statistics-month {
+    width: 237px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #118811;
+    border-radius: 4px;
+    padding: 10px 0;
+    margin: 10px 0;
+    background: rgb(126, 189, 126);
+    letter-spacing: -0.8px;
+
+}
+
+.main-list_services-statistics-img {
+
+}
+
+.main-list_services-statistics-text {
+
+}
