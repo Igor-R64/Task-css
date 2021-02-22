@@ -85,10 +85,10 @@
     padding-top: 16px;
 }
 
-.main-description_services {
+/* .main-description_services {
     width: 834px;
 background-color: rgb(233, 233, 233);
-}
+} */
 
 .main-list_services-general {
     height: 63px;
@@ -98,6 +98,7 @@ background-color: rgb(233, 233, 233);
 
 .main-list_services-general:hover{
     background-color:  rgb(233, 233, 233);
+    color: #118811;
 }
 
 .main-list_services-general-img {
@@ -195,4 +196,44 @@ background-color: rgb(233, 233, 233);
 
 .main-list_services-statistics-text {
 
+}
+
+.main-description_services {
+    width: 695px;
+    margin: 0 auto;
+
+}
+
+.main-description_services-top {
+    margin-top: 38px;
+    font-family: calibri;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.main-description_services-download {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 26px 8px 26px 0px;
+    height: 48px;
+
+}
+
+.main-description_services-download-text {
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.services-download-file {
+    width: 258px;
+    padding: 13px 0px;
+    background-color: white;
+    border-color: #118811;
+   
+}
+
+.services-download-file:hover {
+    background-color: #118811 ;
 }
