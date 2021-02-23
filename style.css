@@ -236,4 +236,48 @@ background-color: rgb(233, 233, 233);
 
 .services-download-file:hover {
     background-color: #118811 ;
+    
 }
+
+.main-description_services-favorites-top {
+    font-family: calibri;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 36px 0px;
+}
+
+.main-description_services-favorites-select-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #118811;
+    margin: 5px 8px 18px 0px;
+    height: 45px;
+}
+
+.main-description_services-favorites-select-list:hover {
+    background-color: #118811 ;
+}
+
+
+.main-description_services-favorites-select-text {
+    margin-left: 9px;
+    font-size: 17px;
+}
+
+.main-description_services-favorites-select-img {
+    margin-right: 11px;
+}
+
+.main-description_services-favorites-select-next {
+    display: flex;
+    justify-content: flex-end;
+    margin: 29px 8px 22px 0px;
+}
+
+.next {
+    text-decoration: none;
+    color: rgb(126, 189, 126);
