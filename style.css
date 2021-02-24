@@ -98,7 +98,7 @@ background-color: rgb(233, 233, 233);
 
 .main-list_services-general:hover{
     background-color:  rgb(233, 233, 233);
-    color: #118811;
+    color: #67981a;
 }
 
 .main-list_services-general-img {
@@ -133,12 +133,12 @@ background-color: rgb(233, 233, 233);
     margin-top: 18px;
     /* margin-left: 1px; */
     background-color: white;
-    border-color: #118811;
+    border-color: #67981a;
 
 }
 
 .services-button:hover {
-    background-color: #118811 ;
+    background-color: #67981a ;
 }
 
 .main-list_services-signature {
@@ -167,7 +167,7 @@ background-color: rgb(233, 233, 233);
     width: 237px;
     display: flex;
     justify-content: space-around;
-    border: 1px solid #118811;
+    border: 1px solid #67981a;
     border-radius: 4px;
     padding: 10px 0;
     margin: 10px 0;
@@ -181,7 +181,7 @@ background-color: rgb(233, 233, 233);
     width: 237px;
     display: flex;
     justify-content: space-around;
-    border: 1px solid #118811;
+    border: 1px solid #67981a;
     border-radius: 4px;
     padding: 10px 0;
     margin: 10px 0;
@@ -230,12 +230,12 @@ background-color: rgb(233, 233, 233);
     width: 258px;
     padding: 13px 0px;
     background-color: white;
-    border-color: #118811;
+    border-color: #67981a;
    
 }
 
 .services-download-file:hover {
-    background-color: #118811 ;
+    background-color: #67981a ;
     
 }
 
@@ -253,13 +253,13 @@ background-color: rgb(233, 233, 233);
     border-width: 2px;
     border-style: solid;
     border-radius: 2px;
-    border-color: #118811;
+    border-color: #67981a;
     margin: 5px 8px 18px 0px;
     height: 45px;
 }
 
 .main-description_services-favorites-select-list:hover {
-    background-color: #118811 ;
+    background-color: #67981a ;
 }
 
 
@@ -272,6 +272,10 @@ background-color: rgb(233, 233, 233);
     margin-right: 11px;
 }
 
+.favorites-select-img {
+    width: 22px;
+}
+
 .main-description_services-favorites-select-next {
     display: flex;
     justify-content: flex-end;
@@ -280,4 +284,28 @@ background-color: rgb(233, 233, 233);
 
 .next {
     text-decoration: none;
-    color: rgb(126, 189, 126);
+    color: rgb(126, 189, 126);}
+
+.main-description_services-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-description_services-selection-services {
+    display: block;
+    width: 332px;
+    height: 148px;
+    background-color: #67981a;
+    margin: 10px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-footer {
+    width: 70px;
+    margin: 40px;
+}
