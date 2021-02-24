@@ -1,3 +1,14 @@
+@media screen and (max-width: 760px) {
+    .header-top_phone,
+    .header-top_secondary_logo,
+    .menu,
+    .menu-list,
+    .main-list_services,
+    .menu-list-item {
+        display: none;
+    }
+}
+
 .body {
     width: 1514px;
     background-color: #eeeeee;
@@ -208,7 +219,7 @@ background-color: rgb(233, 233, 233);
 
 }
 
-.main-description_services-top {
+.h1 {
     margin-top: 38px;
     font-family: calibri;
     font-size: 33px;
