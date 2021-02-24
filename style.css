@@ -1,16 +1,17 @@
 .body {
     width: 1514px;
+    background-color: #eeeeee;
 }
 
 
 .wrapper {
     width: 1120px;
     margin: 0 auto;
-
+    background-color: #eeeeee;
 }
 
 .header {
-   
+   background-color: white;
 }
 
 .header-top {
@@ -70,19 +71,22 @@
     font-weight: 600;
     padding-right: 13px;
     letter-spacing: 0.5px;
+}
 
-
-
+.list-item {
+text-decoration: none;
+color: black;
 }
 
 .main {
     display: flex;
-
+    
 }
 
 .main-list_services {
     width: 286px;
     padding-top: 16px;
+    background-color: white;
 }
 
 /* .main-description_services {
@@ -286,18 +290,62 @@ background-color: rgb(233, 233, 233);
     text-decoration: none;
     color: rgb(126, 189, 126);}
 
-.main-description_services-selection {
+.main-description_services-selection-top {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .main-description_services-selection-services {
-    display: block;
+    display: grid;
+    align-items: center;
     width: 332px;
     height: 148px;
-    background-color: #67981a;
+    background-color: white;
     margin: 10px 0;
+    box-shadow: 1px 1px 3px 0px gray;
+}
+
+.main-description_services-selection-services:hover {
+    background-color: #eeeeee;
+}
+
+.main-description_services-selection-services-img {
+    padding-left: 25px;
+}
+
+.main-description_services-selection-services-text {
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.main-description_services-selection-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-description_services-selection-selection {
+    display: grid;
+    align-items: center;
+    width: 332px;
+    height: 148px;
+    background-color: white;
+    margin: 10px 0;
+    box-shadow: 1px 1px 3px 0px gray;
+}
+
+.main-description_services-selection-selection:hover {
+    background-color: #eeeeee;
+}
+
+.main-description_services-selection-selection-img {
+    padding-left: 25px;
+}
+
+.main-description_services-selection-selection-text {
+    padding-left: 25px;
+    font-size: 20px;
 }
 
 .footer {
@@ -306,6 +354,7 @@ background-color: rgb(233, 233, 233);
 }
 
 .logo-footer {
-    width: 70px;
-    margin: 40px;
+    width: 80px;
+    margin: 50px;
 }
+
