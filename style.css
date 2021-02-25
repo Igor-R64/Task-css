@@ -1,13 +1,4 @@
-/* @media screen and (max-width: 760px) {
-    .header-top_phone,
-    .header-top_secondary_logo,
-    .menu,
-    .menu-list,
-    .main-list_services,
-    .menu-list-item {
-        display: none;
-    }
-} */
+
 @media screen and (max-width: 760px) {
     .header-top_phone,
     .header-top_secondary_logo,
@@ -29,6 +20,103 @@
         background-color: #eeeeee;
     }
     
+    #menu__toggle {
+        opacity: 0;
+      }
+    .menu__btn {
+        position: fixed;
+        top: 20px;
+        right: 40px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+      }
+    
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: #616161;
+    }
+    .menu__btn > span::before {
+      content: '';
+      top: -8px;
+    }
+    .menu__btn > span::after {
+      content: '';
+      top: 8px;
+    }
+    
+    .menu__box {
+        display: block;
+        position: relative;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        text-align: center;
+        background-color: #ECEFF1;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+      }
+      .menu__item {
+        display: block;
+        padding: 12px 24px;
+        color: #333;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .menu__item:hover {
+        background-color: #CFD8DC;
+      }
+    
+      #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+      }
+      #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+      #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        left: 0;
+      }
+    
+    .hamburger_services-general {
+        height: 63px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .hamburger_services-general:hover{
+        background-color:  rgb(233, 233, 233);
+        color: #67981a;
+    }
+    
+    .hamburger_services-general-img {
+        padding-left: 27px;
+    }
+    
+    .hamburger_services-general-text {
+        text-align: center;
+        font-family: Calibri, sans-serif;
+        font-size: 19px;
+        font-weight: 500;
+        padding-left: 22px;
+    }
     
     .header-top {
         height: 84px;
@@ -38,145 +126,8 @@
         font-family: Calibri, sans-serif;
     }
     
-    .header-top_phone {
-        padding-left: 156px;
-    }
-    
-    .header-top_phone-number {
-        color: black;
-        font-size: 25px;
-        font-weight: 600;
-    }
-    
-    .header-top_phone-info {
-        color: gray;
-        font-size: 13px;
-    }
-    
-    .header-top_secondary_logo {
-        font-size: 12px;
-    }
-    
-    .menu {
-        height: 92px;
-        display: flex;
-    }
-    
-    .menu-list {
-        align-items: center;
-        display: flex;
-        font-family: Calibri, sans-serif;
-    }
-    
-    .menu-list-item {
-        list-style-type: none;
-        font-size: 15px;
-        font-weight: 600;
-        padding-right: 13px;
-        letter-spacing: 0.5px;
-    }
-    
-    .list-item {
-    text-decoration: none;
-    color: black;
-    }
-    
     .main {
         display: flex;
-    }
-    
-    .main-list_services {
-        width: 286px;
-        padding-top: 16px;
-        background-color: white;
-    }
-    
-    .main-list_services-general {
-        height: 63px;
-        display: flex;
-        align-items: center;
-    }
-    
-    .main-list_services-general:hover{
-        background-color:  rgb(233, 233, 233);
-        color: #67981a;
-    }
-    
-    .main-list_services-general-img {
-        padding-left: 27px;
-    }
-    
-    .main-list_services-general-text {
-        text-align: center;
-        font-family: Calibri, sans-serif;
-        font-size: 19px;
-        font-weight: 500;
-        padding-left: 22px;
-    }
-    
-    .main-list_services-button {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 30px;
-    }
-    
-    .services-button {
-        width: 242px;
-        padding: 13px 0px;
-        margin-top: 18px;
-        background-color: white;
-        border-color: #67981a;
-    }
-    
-    .services-button:hover {
-        background-color: #67981a ;
-    }
-    
-    .main-list_services-signature {
-        margin-top: 23px;;
-        text-align: center;
-        font-size: 17px;
-    }
-    
-    .signature {
-        text-decoration: none;
-        color: rgb(126, 189, 126);
-    }
-    
-    .main-list_services-statistics {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .main-list_services-statistics {
-        padding-top: 40px;
-    }
-    
-    .main-list_services-statistics-year {
-        width: 237px;
-        display: flex;
-        justify-content: space-around;
-        border: 1px solid #67981a;
-        border-radius: 4px;
-        padding: 10px 0;
-        margin: 10px 0;
-        font-size: 15px;
-        background: rgb(126, 189, 126);
-        letter-spacing: -0.8px;
-    }
-    
-    .main-list_services-statistics-month {
-        width: 237px;
-        display: flex;
-        justify-content: space-around;
-        border: 1px solid #67981a;
-        border-radius: 4px;
-        padding: 10px 0;
-        margin: 10px 0;
-        background: rgb(126, 189, 126);
-        letter-spacing: -0.8px;
     }
     
     .main-description_services {
@@ -336,18 +287,15 @@
         font-size: 20px;
     }
     
-    .logo-footer {
-        width: 80px;
-        margin: 50px;
-        position: absolute;
-        bottom: -1170px;
-        right: 390px;
-    }
 }
 
 
-
 @media screen and (min-width: 760px) {
+   
+    .hamburger-menu {
+        display: none;
+    }
+
     .body {
         width: 1514px;
         background-color: #eeeeee;
